@@ -1,0 +1,77 @@
+﻿body {
+    margin:0;
+     
+}
+
+.cor-fundo{
+    background:#ffd800;
+}
+
+.corfundo-2{
+        background: #949ffa;
+}
+
+.fundo-3{
+    background: #e566cf;
+}
+
+.conteudo {
+    position: absolute; /* tomar como referencia o canto superior esquerdo do browser*/
+    width: 80%; /*comando define a largura do elemento*/
+    max-width: 600px; /*define a largura maxima do elemento*/
+    height: auto;/*define a altura automatica do elemento*/
+    background: #949ffa;/*define a cor do fundo dentro da borda*/
+    border-radius: 20px; /*redondar a a borda do canto do elemento*/
+    padding: 100px;/*almenta a autura dentro da borda*/
+    text-align: center;/*define o posicionamento do texto*/
+    top: 50%;/*define a distancia do topo*/
+    left: 50%;/*define a distancia  da esquerda*/
+    transform: translate(-50%, -50%); /*centraliza o texto ao centro*/
+    border-width: 1px;/*define a grossura da borda*/
+    border-color: #000;/*define a cor da borda*/
+    border-style: solid;/*linha pontilhada (tracejada)*/
+    letter-spacing:5px;/*define o espaço entre as letras*/
+    font-family: 'Great Vibes', cursive;/*para altura a fonte da letra*/
+}
+
+
+h3{
+    line-height:150%;/*almentar o espaço entre as letras*/
+}
+.conteudo-2{
+    position: absolute; /* tomar como referencia o canto superior esquerdo do browser*/
+    width: 80%; /*comando define a largura do elemento*/
+    max-width: 600px; /*define a largura maxima do elemento*/
+    height: auto;/*define a altura automatica do elemento*/
+    background:#ffd800;/*define a cor do fundo dentro da borda*/
+    border-radius: 20px; /*redondar a a borda do canto do elemento*/
+    padding: 100px;/*almenta a autura dentro da borda*/
+    text-align: center;/*define o posicionamento do texto*/
+    top: 50%;/*define a distancia do topo*/
+    left: 50%;/*define a distancia  da esquerda*/
+    transform: translate(-50%, -50%); /*centraliza o texto ao centro*/
+    border-width: 1px;/*define a grossura da borda*/
+    border-color: #000;/*define a cor da borda*/
+    border-style: solid;/*linha pontilhada (tracejada)*/
+    letter-spacing:5px;/*define o espaço entre as letras*/
+    font-family: 'Great Vibes', cursive;/*para altura a fonte da letra*/
+}
+
+.conteudo-3{
+    position: absolute; /* tomar como referencia o canto superior esquerdo do browser*/
+    width: 80%; /*comando define a largura do elemento*/
+    max-width: 600px; /*define a largura maxima do elemento*/
+    height: auto;/*define a altura automatica do elemento*/
+    background:#e96fe6;/*define a cor do fundo dentro da borda*/
+    border-radius: 50px; /*redondar a a borda do canto do elemento*/
+    padding: 150px;/*almenta a autura dentro da borda*/
+    text-align: center;/*define o posicionamento do texto*/
+    top: 50%;/*define a distancia do topo*/
+    left: 50%;/*define a distancia  da esquerda*/
+    transform: translate(-50%, -50%); /*centraliza o texto ao centro*/
+    border-width: 3px;/*define a grossura da borda*/
+    border-color: #000;/*define a cor da borda*/
+    border-style: dashed;/*dotted "linha pontilhada"  solid"normal" dashed"tracinho" (tracejada)*/
+    letter-spacing:5px;/*define o espaço entre as letras*/
+    font-family: 'Monoton', cursive;/*para altura a fonte da letra*/
+}
